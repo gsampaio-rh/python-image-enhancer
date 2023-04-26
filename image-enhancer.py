@@ -34,7 +34,7 @@ def enhance_and_upscale_images(folder_path, brightness=1.0, contrast=1.0, sharpn
     if not os.path.exists(folder_path):
         print("Folder does not exist.")
         return
-    output_path = os.path.join(folder_path, 'enhancend')
+    output_path = os.path.join(folder_path, 'enhanced')
     if not os.path.exists(output_path):
         os.makedirs(output_path)
     for filename in os.listdir(folder_path):
